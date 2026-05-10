@@ -1,2 +1,2 @@
-# Alien-Invaders-PYTHON3
-Alien invaders made in pygame
+# A collection of Python  projects, PYGAME, AI/ML, web apps etc.
+# Currently working on Runner_game.py
