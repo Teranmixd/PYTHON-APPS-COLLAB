@@ -11,7 +11,7 @@ def run_game():
     screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Runner_Game")
 
-    # Load images
+    
     character = pygame.image.load('Resources/character.jpg').convert()
     character.set_colorkey((255, 255, 255))
     character = pygame.transform.scale(character,(100,200))
@@ -35,7 +35,7 @@ def run_game():
 
     while True:
 
-        # Events
+        
         for event in pygame.event.get():
          if dragon_x_pos<=0:
              dragon_x_pos =  1200
@@ -57,10 +57,10 @@ def run_game():
         screen.blit(dragon,(dragon_x_pos, dragon_y_pos ))
         dragon_x_pos -=4
 
-        # Update screen
+        #
         pygame.display.update()
 
-        # FPS
+        
         clock.tick(60)
 
 run_game()
